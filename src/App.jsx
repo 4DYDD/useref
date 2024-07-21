@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import "../src/css/style.css";
+import Board from "./components/Board";
 
 function App() {
   return (
     <>
-      <div>HALO GAIS!</div>
+      <Board />
     </>
   );
 }
